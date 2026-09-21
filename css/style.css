@@ -40,6 +40,13 @@ svg {
   display: block;
 }
 
+.brand-logo {
+  width: 40px;
+  height: auto;
+  display: block;
+  filter: brightness(0) saturate(100%) invert(39%) sepia(93%) saturate(1826%) hue-rotate(202deg) brightness(97%) contrast(105%);
+}
+
 a {
   color: inherit;
 }
@@ -549,20 +556,22 @@ body.no-scroll {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 14px;
+  width: 100%;
 }
+
 
 .placeholder {
   min-height: 220px;
   border-radius: 20px;
   border: 2px dashed var(--border);
-  background:
+  /* background:
     repeating-linear-gradient(
       45deg,
       #f9fafb,
       #f9fafb 12px,
       #f3f4f6 12px,
       #f3f4f6 24px
-    );
+    ); */
   display: flex;
   align-items: center;
   justify-content: center;
