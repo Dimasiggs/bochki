@@ -44,7 +44,6 @@ svg {
   width: 40px;
   height: auto;
   display: block;
-  filter: brightness(0) saturate(100%) invert(39%) sepia(93%) saturate(1826%) hue-rotate(202deg) brightness(97%) contrast(105%);
 }
 
 a {
